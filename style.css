@@ -5,56 +5,55 @@ body
   background: #777;
   width: 960px;
   font-size: 18px;
-  align-content: center;
-   
-}
-
-header, nav, section, aside, footer 
-{
-  background: #ebebeb;
+  margin: 0 auto;
   text-align: center;
-  border: 2px solid #777;
 }
 
 header
 {
-  padding-bottom: 20px;
-  padding-top: 20px;
+  background: #ebebeb;
+  padding: 30px;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
-article 
+nav
 {
-  color: #ebebeb;
-  background: #777;
-  text-align: center;
+  background: #ebebeb;
+  padding: 20px;
+  margin: 20px;
 }
 
 section
 {
-  width: 495px;
+  display: block;
+  background: #ebebeb;
+  padding: 20px;
+  
+}
+
+article 
+{
+  color: #777;
+  background: #ebebeb;
+}
+
+aside
+{
+  background: #ebebeb;
+  padding: 20px;
+  
 }
 
 h1, p
 {
   color: #777;
   background: #ebebeb;
-  text-align: center;
 }
 
 footer
 {
-  padding-bottom: 20px;
-  padding-top: 20px;
-}
-
-nav
-{
-  padding-bottom: 20px;
-  padding-top: 20px;
-}
-
-.center
-{
-  margin: auto;
-  width: 50%;
+  background: #ebebeb;
+  padding: 30px;
 }
