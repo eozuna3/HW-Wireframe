@@ -13,16 +13,14 @@ header
 {
   background: #ebebeb;
   padding: 30px;
-  margin-top: 10px;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin: 10px 20px 10px 20px;
 }
 
 nav
 {
   background: #ebebeb;
   padding: 20px;
-  margin: 20px;
+  margin: 10px 20px 10px 20px;
 }
 
 section
@@ -30,20 +28,27 @@ section
   display: block;
   background: #ebebeb;
   padding: 20px;
-  
+  width: 495px;
+  height: 200px;
+  margin: 10px 20px 10px;
+  float: left;
 }
 
-article 
+/*article 
 {
   color: #777;
   background: #ebebeb;
-}
+  border: 20 px solid purple;
+}*/
 
 aside
 {
   background: #ebebeb;
   padding: 20px;
-  
+  margin: 10px 20px 10px;
+  width: 305px;
+  height: 200px;
+  float: left;
 }
 
 h1, p
@@ -56,4 +61,6 @@ footer
 {
   background: #ebebeb;
   padding: 30px;
+  margin: 10px 20px 10px 20px;
+  clear: both;
 }
